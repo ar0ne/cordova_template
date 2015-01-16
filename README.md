@@ -1,6 +1,7 @@
 ## Introducing
 
 This is simple template for work on Cordova application with [bower](https://github.com/bower/bower) and [grunt](https://github.com/gruntjs/grunt).
+
 With this you can made your work more comfortable in few minutes. Try it! 
 
 ### How to work with this template:
@@ -11,12 +12,14 @@ With this you can made your work more comfortable in few minutes. Try it!
 
 2. Then clone this repositorie to your cordova app folder.
 
-	$ `cd path/to/cordova_app`
 	$ `git clone https://github.com/ar0ne/cordova_template.git`
+
+	And replace all files from template to your cordova application folder.
 
 3. If you don't have bower or grunt then you must to install it on your OS.
 
 	For more details about bower see: http://bower.io/
+
 	And for grunt: 	http://gruntjs.com/getting-started
 
 4. With bower you don't need more searching latest version of popular libraries for your application. In one command you can easy download all you need.
@@ -25,7 +28,7 @@ With this you can made your work more comfortable in few minutes. Try it!
 
 	$ `bower install`
 
-	If you don't need some libraries you can remove it: $ `bower uninstall jquery --save`
+	If you don't need some libraries you can remove it: $ `bower uninstall jquery --save`, but don't forget edit Gruntfile.js then.
 
 5. For run Gruntfile you must to install grunt and few components as uglify etc.
 
